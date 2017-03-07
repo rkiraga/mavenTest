@@ -19,6 +19,7 @@ public class App
         try {
             byte[] tab = Base64.decode("cXdlcnR5".getBytes());
             System.out.println(new String(tab));
+            System.out.println("KOLEJNA LINIJKA");
         } catch (Base64DecodingException e) {
             e.printStackTrace();
         }
